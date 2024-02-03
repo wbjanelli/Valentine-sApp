@@ -2,7 +2,7 @@
 
 Welcome to "Will You Be Mine?" – a simple yet heartwarming app designed to help you express your feelings to your beloved on Valentine's Day. This app is created to add a touch of sweetness to your romantic endeavors by asking that special someone if they will be yours on this special occasion.
 
-<img src="happycat.PNG">
+<img src="happycat.png">
 
 ## Available Scripts
 
