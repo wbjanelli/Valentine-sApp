@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,50 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* App.css */
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin-top: -16px;
+}
+
+.text-large {
+  font-size: 4rem;
+  font-family: 'Cinzel', serif;
+}
+
+.image-large {
+  height: 400px;
+  animation: rotate 15s linear infinite; /* Adjust duration and timing function as per your requirement */
+  margin-bottom: 50px;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.button-yes {
+  background-color: #34d399;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.button-no {
+  background-color: #ff0000;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 8px;
 }
